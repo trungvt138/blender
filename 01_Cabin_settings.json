@@ -1,0 +1,73 @@
+{
+  "blender_version": "4.5.3 LTS",
+  "filepath": "F:\\blenderUdemy\\01_Cabin.blend",
+  "render_engine": "CYCLES",
+  "render": {
+    "resolution_x": 1920,
+    "resolution_y": 1080,
+    "resolution_percentage": 100,
+    "fps": 24,
+    "fps_base": 1.0,
+    "film_transparent": false,
+    "use_motion_blur": false,
+    "use_high_quality_normals": false,
+    "use_overwrite": true,
+    "use_placeholder": false,
+    "use_file_extension": true,
+    "use_persistent_data": false
+  },
+  "output": {
+    "file_format": "PNG",
+    "color_mode": "RGBA",
+    "color_depth": "8",
+    "compression": 15
+  },
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "length_unit": "METERS",
+    "mass_unit": "KILOGRAMS",
+    "time_unit": "SECONDS",
+    "temperature_unit": "KELVIN",
+    "use_separate": false,
+    "system_rotation": "DEGREES"
+  },
+  "color_management": {
+    "display_device": "sRGB",
+    "view_transform": "Filmic",
+    "look": "None",
+    "gamma": 1.0,
+    "exposure": 0.0
+  },
+  "world": {
+    "use_nodes": true,
+    "color": null
+  },
+  "view_layer": {
+    "name": "ViewLayer",
+    "use_pass_cryptomatte_object": false,
+    "use_pass_cryptomatte_material": false
+  },
+  "engine_specific": {
+    "cycles": {
+      "device": "GPU",
+      "samples": 4096,
+      "preview_samples": 1024,
+      "use_adaptive_sampling": true,
+      "adaptive_min_samples": 0,
+      "adaptive_threshold": 0.009999999776482582,
+      "use_denoising": true,
+      "use_fast_gi": false,
+      "blur_glossy": 1.0,
+      "max_bounces": 12,
+      "diffuse_bounces": 4,
+      "glossy_bounces": 4,
+      "transmission_bounces": 12,
+      "transparent_max_bounces": 8
+    }
+  },
+  "modifier_summary": {
+    "MIRROR": 1,
+    "NODES": 2
+  }
+}

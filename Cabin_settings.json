@@ -1,0 +1,59 @@
+{
+  "blender_version": "4.5.3 LTS",
+  "filepath": "F:\\blenderUdemy\\Cabin.blend",
+  "render_engine": "BLENDER_EEVEE_NEXT",
+  "render": {
+    "resolution_x": 1920,
+    "resolution_y": 1080,
+    "resolution_percentage": 100,
+    "fps": 24,
+    "fps_base": 1.0,
+    "film_transparent": false,
+    "use_motion_blur": false,
+    "use_high_quality_normals": false,
+    "use_overwrite": true,
+    "use_placeholder": false,
+    "use_file_extension": true,
+    "use_persistent_data": false
+  },
+  "output": {
+    "file_format": "PNG",
+    "color_mode": "RGBA",
+    "color_depth": "8",
+    "compression": 15
+  },
+  "units": {
+    "system": "METRIC",
+    "scale_length": 1.0,
+    "length_unit": "METERS",
+    "mass_unit": "KILOGRAMS",
+    "time_unit": "SECONDS",
+    "temperature_unit": "KELVIN",
+    "use_separate": false,
+    "system_rotation": "DEGREES"
+  },
+  "color_management": {
+    "display_device": "sRGB",
+    "view_transform": "AgX",
+    "look": "None",
+    "gamma": 1.0,
+    "exposure": 0.0
+  },
+  "world": {
+    "use_nodes": true,
+    "color": null
+  },
+  "view_layer": {
+    "name": "ViewLayer",
+    "use_pass_cryptomatte_object": false,
+    "use_pass_cryptomatte_material": false
+  },
+  "engine_specific": {
+    "eevee": {
+      "use_gtao": false,
+      "gtao_distance": 0.20000000298023224,
+      "gtao_quality": 0.25
+    }
+  },
+  "modifier_summary": {}
+}
